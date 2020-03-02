@@ -3,12 +3,12 @@ import time
 import pyautogui
 import cv2
 
-im1 = pyautogui.screenshot(region=(400,0,300,70))
-time.sleep(60)
-im2 = pyautogui.screenshot(region=(400,0,300,70))
-im1.show()
-im2.show()
-exit()
+# im1 = pyautogui.screenshot(region=(400,0,300,70))
+# time.sleep(60)
+# im2 = pyautogui.screenshot(region=(400,0,300,70))
+# im1.show()
+# im2.show()
+
 def calc(start,end,initValue):
     t = 0
     
